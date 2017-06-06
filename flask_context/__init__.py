@@ -27,9 +27,10 @@ Usage::
         return current_context.correlation_id
 """
 
-from flask_context.context import FlaskContext, current_context
+from flask_context.context import FlaskContext, current_context, get_ext
 
 __all__ = [
     'FlaskContext',
     'current_context',
+    'get_ext',
 ]
