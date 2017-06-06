@@ -1,0 +1,7 @@
+*.py[co]
+*.egg-info
+dist
+cover
+.coverage
+.noseids
+.eggs
